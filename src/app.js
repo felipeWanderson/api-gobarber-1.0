@@ -1,5 +1,5 @@
-import express from 'express';
-import routes from './routes';
+import express from "express";
+import routes from "./routes";
 
 class App {
   constructor() {
@@ -16,6 +16,5 @@ class App {
     this.server.use(routes);
   }
 }
-
 
 export default new App().server;
